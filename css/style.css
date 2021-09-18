@@ -101,6 +101,7 @@ h1 {
 }
 
 .conteiner .equipos ul li {
+    text-transform: uppercase;
     margin: 0px;
     width: 30%;
     padding: 1%;
