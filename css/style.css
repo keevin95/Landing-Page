@@ -229,7 +229,21 @@ textarea {
     box-shadow: 3px 3px grey;
 }
 
-@media(max-width:720px) {
+@media(max-width:1024px) {
+    .conteiner .equipos .cartas .card {
+        text-align: center;
+        height: 50vh;
+    }
+    .conteiner .png {
+        margin-top: 0px;
+        height: 10vh;
+    }
+    .conteiner .contacto {
+        height: 50vh;
+    }
+}
+
+@media(max-width:768px) {
     main {
         width: 90%;
     }
@@ -282,6 +296,27 @@ textarea {
     }
 }
 
+@media(max-width:440px) {
+    .conteiner .equipos h3 {
+        font-size: 1em;
+        letter-spacing: 0px
+    }
+    .conteiner .equipos ul li {
+        font-size: 10px;
+    }
+    .conteiner .equipos .cartas .card {
+        margin: auto;
+        margin-top: 10px;
+        width: 90%;
+        height: 50vh;
+    }
+    .conteiner .contacto .formulario form label.checkbox {
+        width: 80%;
+        padding-left: 50px;
+        font-size: 12px;
+    }
+}
+
 @media(max-width:375px) {
     main {
         width: 90%;
@@ -301,7 +336,7 @@ textarea {
         font-size: 12px;
     }
     .conteiner .equipos .cartas .card {
-        width: 100%;
+        width: 80%;
         height: 80vh;
         padding: 3%;
         text-align: center;
@@ -318,7 +353,7 @@ textarea {
         height: 85vh;
     }
     .conteiner .contacto .formulario form label.checkbox {
-        width: 100%;
+        width: 80%;
         padding-left: 30px;
     }
     .conteiner .contacto .formulario input[type="mail"],
@@ -329,9 +364,13 @@ textarea {
     .conteiner .contacto .formulario input[type="mail"],
     textarea::placeholder {
         text-align: center;
+        font-size: 8px;
+        color: black;
     }
 }
 
+
+/*
 @media(max-width:360px) {
     .conteiner .equipos ul li {
         width: 30%;
@@ -377,8 +416,7 @@ textarea {
         font-size: 10px;
     }
     .conteiner .contacto .formulario form label.checkbox {
-        width: 100%;
+        width: 80%;
         padding-left: 30px;
         font-size: 10px;
-    }
-}
+    }*/
