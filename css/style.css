@@ -370,8 +370,6 @@ textarea {
     }
 }
 
-
-/*
 @media(max-width:360px) {
     .conteiner .equipos ul li {
         width: 30%;
@@ -394,6 +392,8 @@ textarea {
     }
 }
 
+
+/*
 @media(max-width:320px) {
     .conteiner .contacto {
         height: 130vh;
